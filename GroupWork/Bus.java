@@ -24,7 +24,6 @@ public class Bus{
         if (currentPassengers >= capacity){
             throw new OverCapacityException("Bus is full!No more passengers allowed.");
         }
-    //increment
         currentPassengers ++;
     }
     @Override
