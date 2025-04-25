@@ -1,4 +1,5 @@
 public class Passenger{
+    
     //passenger fields 
     
     private String name;
@@ -12,6 +13,7 @@ public class Passenger{
         this.ticketNumber = ticketNumber;
         this.destination = destination;
     }
+    
    // getters to access private passenger fields 
     
     public String getName(){
