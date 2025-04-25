@@ -28,7 +28,8 @@ public class Passenger{
     
 
     // displays passenger fields
-    @public String toString(){
+    @override
+    public String toString(){
         return "Passenger: "+name+ ", Tickect: "+ticketNumber+ ", Destination: "+destination;
     }
 }
