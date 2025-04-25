@@ -1,11 +1,13 @@
 public class Bus{
     
     // bus fields
+    
     private String routeNumber;
     private int capacity;
     private int currentPassengers;
     
     // constructor to set the bus fields
+    
     public Bus(String routeNumber ,int capacity){
         this.routeNumber =routeNumber;
         this.capacity = capacity;
@@ -13,6 +15,7 @@ public class Bus{
     }
     
     // getters to access the private bus fields
+    
     public String getRouteNumber(){
         return routeNumber;
     }
@@ -31,6 +34,7 @@ public class Bus{
         }
         currentPassengers ++;
     }
+    
     // displays bus fields
     
     @Override
@@ -38,6 +42,7 @@ public class Bus{
         return "Bus Route: "+routeNumber+ ", Capacity: "+capacity+ ", Passengers: "+currentPassengers;
     }
 }
+
 //inherits the exception class 
 
  class OverCapacityException extends Exception {
