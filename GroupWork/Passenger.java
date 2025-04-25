@@ -20,8 +20,8 @@ public class Passenger{
         return destination;
     }
 
-    // displays 
-    public String toString(){
+    // displays passenger fields
+    @public String toString(){
         return "Passenger: "+name+ ", Tickect: "+ticketNumber+ ", Destination: "+destination;
     }
 }
