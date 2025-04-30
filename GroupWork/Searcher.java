@@ -18,7 +18,7 @@ public class Searcher{
                 return mid;// Found
             }
             if (buses[mid].getCapacity() < targetCapacity){
-                return mid + 1;
+                left mid + 1;
             }else{
                 right = mid - 1;
             }
