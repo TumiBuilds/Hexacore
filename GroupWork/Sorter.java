@@ -9,7 +9,7 @@ public class Sorter{
             int minIndex = i;
             // Find the bus with the smallest capacity in the remaining array
          for(int j = i + 1; j < n; j++){
-            if(buses[i].getCapacity() < buses[minIndex].getCapacity()){
+            if(buses[j].getCapacity() < buses[minIndex].getCapacity()){
                minIndex = j; 
             }
          }
